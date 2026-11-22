@@ -3,7 +3,7 @@
 一个用 Three.js 制作的 **三渲二（卡通渲染）日式雨夜便利店街角微缩场景**。
 整个场景搭建在一块正方形底座上，像一件可以捧在手心的小小街景模型 —— 没有任何 UI 元素，纯观赏。
 
-**在线观看：https://<你的用户名>.github.io/rainy-convenience-store/ （部署后更新此链接）**
+**在线观看：<https://lzllzllzllzllzl.github.io/rainy-convenience-store/>**
 
 ![预览](https://img.shields.io/badge/Three.js-r149-blue) 
 
