@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>雨夜便利店 · 街角</title>
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:#05060c}
+  #view{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(3,5,12,.5) 100%)}
+  #nogl{display:none;position:fixed;inset:0;place-items:center;color:#8fa0c8;font:14px/1.6 system-ui,sans-serif}
+</style>
+</head>
+<body>
+<canvas id="view"></canvas>
+<div id="nogl">当前浏览器不支持 WebGL，无法呈现三维场景。</div>
+<script src="lib/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
